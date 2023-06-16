@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <title>Form a Story</title>
+  </head>
+  <body>
+    <section id="top">
+      <img
+        src="data:image/png;base64,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"
+        alt="Form A Story Logo"
+      />
+    </section>
+
+    <section id="main">
+      <h1>
+       Complete The Form - <br>
+        Complete The Story!
+      </h1>
+      <hr />
+      
+      <form action="story.html" method="GET">
+        <label for="animal-1">Animal:</label>
+        <input type="text" id="animal-1" name="animal-1" required />
+        <br />
+        <label for="animal-2">Another Animal:</label>
+        <input type="text" id="animal-2" name="animal-2" required />
+        <br />
+        <label for="animal-3">One More Animal:</label>
+        <input type="text" id="animal-3" name="animal-3" required />
+        <br />
+        <label for="adj-1">Adjective (past tense):</label>
+        <input type="text" id="adj-1" name="adj-1" required />
+        <br />
+        <label for="verb-1">Verb (ends in -ing):</label>
+        <input type="text" id="verb-1" name="verb-1" required />
+        <br />
+        <label for="num-1">Number:</label>
+        <input type="number" id="num-1" name="num-1" required />
+        <br />
+        <span>Yes or No:</span>
+        <input type="radio" id="yes" name="answer" value="yes" required />
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="answer" value="no" required />
+        <label for="no">No</label>
+        <br />
+        <label for="speed">Relative speed (ends in -er):</label>
+        <select name="speed" id="speed" required>
+          <option value="faster">Faster</option>
+          <option value="slower">Slower</option>
+        </select>
+        <br />
+        <label for="quote">Motivational Quote:</label>
+        <input
+          type="text"
+          id="quote"
+          name="quote"
+          required
+          list="quote-choices"
+        />
+        <datalist id="quote-choices">
+          <option value="Winner gets ice cream!"></option>
+          <option value="Second place is the first loser!"></option>
+          <option
+            value="Winning isn't everything. It's the only thing."
+          ></option>
+        </datalist>
+        <br />
+        <label for="message">Meaningful Message:</label>
+        <textarea
+          name="message"
+          id="message"
+          cols="40"
+          rows="8"
+          placeholder="Slow and steady wins the race."
+        ></textarea>
+        <br />
+        <input type="submit" value="Form My Story!" />
+      </form>
+    </section>
+  </body>
+</html>
